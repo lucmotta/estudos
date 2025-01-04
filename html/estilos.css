@@ -1,0 +1,176 @@
+
+
+* {
+    box-sizing: border-box;
+      }
+
+  html {
+    font-family: Arial;
+    background-color:grey;
+    font-size: 65,5%;
+  }
+
+header {
+    
+
+    background-color: rgb(36, 36, 36);
+    padding: 100px;
+    border:1px solid rgb(141, 141, 141);
+    text-align: left;
+    margin-bottom: 40px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.6);
+    background: rgb(31, 31, 31) url(./img/akemy.jpg) no-repeat top right;
+    
+
+}
+
+.textoinicio {
+    width: 900px;
+}
+
+
+header h1:hover {
+    color: rgb(255, 217, 0);
+}
+
+.destaquetitulo {
+
+    background: rgb(122, 122, 122);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+header p {
+    background-color: rgb(75, 75, 75);
+    color: black;
+    padding: 20px;
+}
+
+h1 {
+
+    font-family: "Poppins", serif;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.container, .latido {
+
+    font-size: 1.5em;
+    font-family: "Poppins", serif;
+   
+}
+
+
+
+h2 {
+    font-size: 40px;
+    color: rgb(31, 30, 30);
+}
+
+
+.chamada {
+
+    color: rgb(245, 8, 8);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    border:2px solid grey ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.chamada h2, .chamada p {
+
+    color: inherit;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+}
+
+a:hover {
+    color: white;
+    text-transform: uppercase;
+    background: blue;
+    
+}
+
+#lebronjames {
+    width: 900px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 60px; 
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+     
+
+}
+
+
+#lebronjames img {
+    width: 100%;
+}
+
+
+.filtro {    
+    filter: grayscale(0%);
+    }
+
+
+.filtro:hover {
+    
+    filter: grayscale(100%) brightness(50%);  
+}
+
+section{
+    width: 100%;
+}
+
+article {
+    width: 100%;
+}
+
+.coluna {
+    background-color: rgb(207, 207, 207);
+    display: block;
+    float: left;
+    width: 31%;
+    height: 600px;
+    padding: 50px;
+    margin: 5px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.6);
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 780px){
+    .coluna {
+        width: 100vw;
+        background-color: brown;
+    }
+}
+
+/* SMARTPHONE */
+
+
+@media (max-width: 425px){
+    .coluna {
+        width: 100%;
+        background-color:rgb(47, 0, 255);
+    }
+}
+  

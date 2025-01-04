@@ -1,0 +1,139 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    background-color: white;
+    font-size: 65,5%;
+}
+
+header {
+    width: 100%;
+    background-color: aqua;
+}
+body {
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #1e4f69;
+}
+
+p {
+    font-size: 1.2em;
+    color: #7a7a7a;
+}
+
+
+.topocolunas {
+    width: 50%;
+    display: block;
+    float: left;
+    height: 90px;
+    background-color: aqua;
+    margin: 1px solid black;
+   
+}
+
+.menupricipal {
+    display: inline;
+}
+
+section {
+    width: 100%;
+}
+
+.submenu {
+    
+    margin-top: 120px;
+    display: inline;
+
+}
+
+
+article {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+.duascolunas {
+    
+    margin: 1px solid black;
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 30px;    
+    
+    
+
+}
+
+.duascolunas img {
+    width: 100%;
+}
+
+.instalacao {
+    background-color: #333741;
+    color: #cbcbcb;
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: left;
+    margin: 0 auto;
+    padding: 50px 200px 50px 200px;
+
+}
+
+.instalacao p {
+    color: #cbcbcb;
+}
+
+.changelog {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: left;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+footer {
+    background-color: #4696c2;
+    color: white;
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+footer p {
+    color: white;
+}
+
+
+.backgeral {
+    background-color: red;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 420px) {
+    .duascolunas {
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px){
+    .instalacao{
+        width: 100%;
+    }
+}
