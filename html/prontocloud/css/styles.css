@@ -20,10 +20,10 @@ body {
 
 .container {
     display: block;
-    float: left;
-    
+    float: left;    
     width: 100%;
     margin: 0 auto;
+    
 }
 
 
@@ -63,7 +63,7 @@ p {
     line-height: 1.4;
 }
 header {
-    padding: 20px;
+    padding: 20px 0px 20px 0;
     display: block;
     float: left;
     width: 100%;
@@ -80,7 +80,7 @@ section {
 section nav {
     display: block;
     float: left;
-    width: 30%;
+    width: 20%;
 }
 
 nav li {
@@ -110,20 +110,46 @@ nav a:hover {
 section article {
     display: block;
     float: left;
-    width: 70%;
+    width: 80%;
+    padding: 0px 0px 0px 0px;
 }
 
 footer{
     display: block;
     float: left;
     width: 100%;
-    background-color: #87c801;
-    display: block;
-    padding: 20px;
+    background-color: #87c801;    
+    padding: 40px 0px 40px 0;
+    
     
 }
 
-section img {
+img {
     width: 100%;
-    padding: 0px 0px 20px 0px;
+    height: auto;
+}
+
+.container img {
+    width: 400px;
+}
+
+.container-section {
+    width: 100%;
+
+    
+}
+
+@media (max-width: 425px){
+    section article,
+    section nav {
+        width: 100%;
+    }
+    nav li {
+        margin: 5px 0px 1px 0px;        
+    }
+
+    .container img {
+        width: 300px;
+        margin: 0 auto;
+    }
 }
